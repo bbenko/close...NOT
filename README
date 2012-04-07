@@ -1,0 +1,5 @@
+This extension is usefull when you are filling out long forms, watch movies, listen to music, ... and you love to have lots of tabs open.
+
+Code is very simple, just one line of JavaScript that uses window.onbeforeunload event:
+
+window.onbeforeunload = function() {return 'close...NOT!';};
